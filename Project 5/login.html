@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Agency - Sign In/Sign Up</title>
+  <style>
+    /* Add some basic styles for the form */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+    
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+      margin-top: 100px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+    .signin a {
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <form action="login.php" method="post" id="signin-form">
+      <h3>Sign In</h3>
+      <input type="text" placeholder="Email" name="email" required>
+      <input type="password" placeholder="Password" name="password" required>
+      <a href="Index.html">
+        <button type="submit">Sign In</button>
+      </a>
+    </form>
+    <div class="signin">
+      <p>Don't have an account? <a href="#signup-form">Sign up</a></p>
+    </div>
+    <form action="signup.php" method="post" id="signup-form">
+      <h3>Sign Up</h3>
+      <input type="text" placeholder="Full Name" name="fullname" required>
+      <input type="email" placeholder="Email" name="email" required>
+      <input type="password" placeholder="Password" name="password" required>
+      <a href="Index.html">
+      <button type="submit">Sign Up</button>
+      </a>
+    </form>
+  </div>
+</body>
+</html>

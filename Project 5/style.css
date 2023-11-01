@@ -1,0 +1,123 @@
+*{
+    font-family: 'josefin sans', sans-serif  ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(./images/travel2.jpg);
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 13vh;
+    background: rgba(0,0,0,0.1);
+    color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    
+    margin-top: 13px;
+    
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px; 
+    text-shadow: 2px 1px 3px black;
+
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black ;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    animation: all .5s ease;
+
+}
+section .btnone{
+    background: white;
+    color: black;
+    font-size: 15px;
+}
+section .btntwo{
+    background-color: #02cca3;
+    color: white;
+    font-size: 15px;
+}
+nav .menu a:first-child{
+    color:  #02cba3;
+    text-shadow: 1px 1px 2px black;
+}
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #02c59e;
+}
+@keyframes changetext{
+    0%{ content: "India"; }
+    20%{ content: "America"; }
+    35%{ content: "Dubai"; }
+    60%{ content: "Paris"; }
+    80%{ content: "Austrilia"; }
+    100%{ content: "Thailand"; }
+
+}
+.btnone:hover{
+    background-color: #02cca3;
+    color: white;
+    font-size: 15px;
+}
+.btntwo:hover{
+    background: white;
+    color: black;
+    font-size: 15px;
+
+}
+.card1{
+    width: 43px;
+}

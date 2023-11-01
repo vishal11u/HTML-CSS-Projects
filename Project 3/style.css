@@ -1,0 +1,96 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(0, 0, 0);
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+ul.navbar li {
+    float: left;
+}
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.navbar li a:hover {
+    background-color: #111;
+}
+.pimg1{
+    background-image: url(./imags/coding.jpeg);
+    min-height: 600px;
+    height: 500px;
+    
+}
+.pimg2{
+    background-image: url(./imags/dev.jpg);
+    min-height: 400px;
+    height: 550px;
+}
+.pimg3{
+    background-image: url(./imags/parallax.jpg);
+    min-height: 400px;
+    height: 550px;
+}
+.pimg1 ,
+ .pimg2,
+  .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.section-light{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.section1{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.section-dark{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.section2{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.section-color{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

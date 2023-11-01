@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.Background {
+  background-image: url(./parallax.jpg);
+  height: 550px;
+}
+.Background1 {
+  background-image: url(./coding.jpeg);
+  height: 550px;
+}
+.Background2 {
+  background-image: url(./dev.jpg);
+  height: 550px;
+}
+section {
+  height: 300px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.Background,
+.Background1,
+.Background2 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Bg-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.Bg-text span{
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+}
